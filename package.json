@@ -18,9 +18,13 @@
   },
   "homepage": "https://github.com/mars444/Lili_Project#readme",
   "dependencies": {
+    "mini-css-extract-plugin": "^2.6.0",
+    "postcss-loader": "^7.0.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "react-router-dom": "^6.3.0"
+    "react-router-dom": "^6.3.0",
+    "sass": "^1.52.3",
+    "sass-loader": "^13.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.18.5",
