@@ -1,0 +1,36 @@
+.p-tabmenu {
+  border: none !important;
+  box-shadow: none !important;
+}
+.p-tabmenu-nav {
+  display: grid;
+  grid-gap: 1rem;
+  border: none !important;
+  box-shadow: none !important;
+}
+.p-tabmenuitem {
+  border: none !important;
+  box-shadow: none !important;
+  background-color: var(--purple-100) !important;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.p-menuitem-link {
+  border: none !important;
+  box-shadow: none !important;
+  background-color: var(--purple-100)  !important;
+  transition: all .5s !important;
+  &:hover {
+    background-color: antiquewhite !important;
+  }
+
+}
+.p-menuitem-text {
+}
+.p-menuitem-icon {
+
+}
+
+.p-tabmenu .p-tabmenu-nav .p-tabmenuitem.p-highlight .p-menuitem-link {
+
+}

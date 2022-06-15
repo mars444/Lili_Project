@@ -12,6 +12,7 @@ import TeamPage from "./pages/TeamPage";
 import PricesPage from "./pages/PricesPage";
 import ReviewsPage from "./pages/ReviewsPage";
 import AboutPage from "./pages/AboutPage";
+import Header from "./components/Header/Header";
 const App = () => {
     const appRoutes = [
         {
@@ -41,24 +42,7 @@ const App = () => {
     return (
 
         <Router>
-            <ul>
-                <li>
-                    <Link to="/">Home</Link>
-                </li>
-                <li>
-                    <Link to="/about">About</Link>
-                </li>
-                <li>
-                    <Link to="/reviews">reviews</Link>
-                </li>
-                <li>
-                    <Link to="/prices">prices</Link>
-                </li>
-                <li>
-                    <Link to="/team">team</Link>
-                </li>
-            </ul>
-            <hr />
+            <Header/>
             <Switch>
                 {appRoutes.map(({path, Component, exact},index) => {
 
