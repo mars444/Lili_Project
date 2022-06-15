@@ -25,13 +25,11 @@ module.exports = {
             },
             {
                 test: /\.(png|jpg|jpeg|gif|svg|svgz)(\?.+)?$/,
-                exclude: /src\/assets\/icons/,
                 use: [
                     {
                         loader: 'url-loader',
                         options: {
                             name: 'images/[name].[ext]',
-                            limit: 1,
                         },
                     },
                 ],
