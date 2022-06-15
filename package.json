@@ -26,9 +26,10 @@
     "primereact": "^8.1.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "react-router-dom": "^6.3.0",
+    "react-router-dom": "^5.3.3",
     "sass": "^1.52.3",
     "sass-loader": "^13.0.0",
+    "switch": "^0.0.0",
     "url-loader": "^4.1.1"
   },
   "devDependencies": {
