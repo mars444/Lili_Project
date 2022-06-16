@@ -34,18 +34,17 @@ module.exports = {
                     },
                 ],
             },
-            {
-                test: /\.(eot|ttf|woff|woff2|otf)(\?.+)?$/,
-                use: [
-                    {
-                        loader: 'url-loader',
-                        options: {
-                            name: 'fonts/[name].[ext]',
-                            limit: 1,
-                        },
-                    },
-                ],
-            },
+            // {
+            //     test: /\.(eot|ttf|woff|woff2|otf|font-woff)(\?.+)?$/,
+            //     use: [
+            //         {
+            //             loader: 'url-loader',
+            //             options: {
+            //                 name: 'fonts/[name].[ext]',
+            //             },
+            //         },
+            //     ],
+            // },
             {
                 test: /\.css/,
                 use: [
@@ -53,11 +52,11 @@ module.exports = {
                     'css-loader',
                     'postcss-loader',
                 ],
-                sideEffects: true
+                // sideEffects: true
             },
             {
                 test: /\.s[ac]ss$/i,
-                sideEffects: true,
+                // sideEffects: true,
                 use: [
                     // Creates `style` nodes from JS strings
                     'style-loader',

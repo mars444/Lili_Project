@@ -13,7 +13,7 @@ import PricesPage from "./pages/PricesPage";
 import ReviewsPage from "./pages/ReviewsPage";
 import AboutPage from "./pages/AboutPage";
 import Header from "./components/Header/Header";
-const App = () => {
+const App = React.memo(() => {
     const appRoutes = [
         {
             path: '/',
@@ -52,6 +52,6 @@ const App = () => {
         </Router>
 
     );
-};
+});
 
 export default App;
